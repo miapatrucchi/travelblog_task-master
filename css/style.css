@@ -1,0 +1,89 @@
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+header {
+	border-bottom: 1px solid black;
+	height: 90px;
+	font-family: arial;
+}
+
+header h1 {
+	display: inline-block;
+	padding-left: 20px;
+}
+
+.nav-left {
+	float: left;
+	line-height: 45px;
+}
+ 
+.nav-left a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: darkgray;
+	font-family: arial;
+}
+
+.nav-right {
+	float: right;
+	font-size: 40px;
+	margin-top: 23px;
+}
+.nav-right i {
+	padding: 0 10px;
+}
+.nav-right a.twitter:hover {
+	color: #1da1f2;
+}
+
+.nav-right a.instagram:hover {
+	color: #003569;
+}
+
+.nav-right a.snapchat:hover {
+	color: #FFFC00;
+}
+
+.content {
+	widows: 1000px;
+	background-color: black;
+	color: lightgray;
+	padding: 20px;
+	border-radius: 6px;
+}
+
+.content img {
+	width: 100%
+}
+
+.content-left, .content-right {
+	width: 48%;
+	display: inline-block;
+}
+
+.content img, .content iframe {
+	width: 100%
+}
+.content h1, .content p {
+	font-family: arial;
+}
+
+.content-right {
+	vertical-align: top;
+	padding-left: 10px
+}
+
+.container {
+	background-image: url("../images/dubrovnik-1.jpg");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 20px;
+
+}
+
+
+/*Add your styles below*/
